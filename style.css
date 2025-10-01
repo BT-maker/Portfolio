@@ -498,16 +498,17 @@ body {
 
 /* Specific backend tech colors */
 .backend-list .tech-item:nth-child(1) i { color: #777bb4; } /* PHP */
-.backend-list .tech-item:nth-child(2) i { color: #3776ab; } /* Python */
-.backend-list .tech-item:nth-child(3) i { color: #3178c6; } /* TypeScript */
-.backend-list .tech-item:nth-child(4) i { color: #339933; } /* Node.js */
-.backend-list .tech-item:nth-child(5) i { color: #000000; } /* Express.js */
-.backend-list .tech-item:nth-child(6) i { color: #ed8b00; } /* Java */
-.backend-list .tech-item:nth-child(7) i { color: #6db33f; } /* Spring Boot */
-.backend-list .tech-item:nth-child(8) i { color: #4479a1; } /* MySQL */
-.backend-list .tech-item:nth-child(9) i { color: #336791; } /* PostgreSQL */
-.backend-list .tech-item:nth-child(10) i { color: #47a248; } /* MongoDB */
-.backend-list .tech-item:nth-child(11) i { color: #3ecf8e; } /* Supabase */
+.backend-list .tech-item:nth-child(2) i { color: #ff2d20; } /* Laravel */
+.backend-list .tech-item:nth-child(3) i { color: #3776ab; } /* Python */
+.backend-list .tech-item:nth-child(4) i { color: #3178c6; } /* TypeScript */
+.backend-list .tech-item:nth-child(5) i { color: #339933; } /* Node.js */
+.backend-list .tech-item:nth-child(6) i { color: #000000; } /* Express.js */
+.backend-list .tech-item:nth-child(7) i { color: #ed8b00; } /* Java */
+.backend-list .tech-item:nth-child(8) i { color: #6db33f; } /* Spring Boot */
+.backend-list .tech-item:nth-child(9) i { color: #4479a1; } /* MySQL */
+.backend-list .tech-item:nth-child(10) i { color: #336791; } /* PostgreSQL */
+.backend-list .tech-item:nth-child(11) i { color: #47a248; } /* MongoDB */
+.backend-list .tech-item:nth-child(12) i { color: #3ecf8e; } /* Supabase */
 
  /* ===== ANIMATED SKILLS ORBITS ===== */
  .orbit-section {
@@ -857,8 +858,9 @@ body {
  
  /* Backend tech icon colors */
  #backend-inner-orbit .inner-orbit-circles:nth-child(1) i { color: #777bb4; } /* PHP */
- #backend-inner-orbit .inner-orbit-circles:nth-child(2) i { color: #3776ab; } /* Python */
- #backend-inner-orbit .inner-orbit-circles:nth-child(3) i { color: #ed8b00; } /* Java */
+#backend-inner-orbit .inner-orbit-circles:nth-child(2) i { color: #ff2d20; } /* Laravel */
+#backend-inner-orbit .inner-orbit-circles:nth-child(3) i { color: #3776ab; } /* Python */
+#backend-inner-orbit .inner-orbit-circles:nth-child(4) i { color: #ed8b00; } /* Java */
  
  #backend-middle-orbit .middle-orbit-circles:nth-child(1) i { color: #339933; } /* Node.js */
  #backend-middle-orbit .middle-orbit-circles:nth-child(2) i { color: #000000; } /* Express.js */
