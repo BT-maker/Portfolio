@@ -1,20 +1,20 @@
 # 🚀 Web Developer Portfolio - Bahattin Tok
 
-Modern, responsive ve etkileşimli bir web developer portfolio'su. HTML5, CSS3, JavaScript ve Bootstrap kullanılarak geliştirilmiştir. **Animasyonlu orbit skills section** ve **proje video player** özellikleri ile öne çıkar.
+Modern, responsive, and interactive web developer portfolio. Built with HTML5, CSS3, JavaScript, and Bootstrap. Highlights include an **Animated Orbit Skills section** and **Project Video Player**.
 
-## ✨ Öne Çıkan Özellikler
+## ✨ Key Features
 
-- **🎯 Orbit Skills Animation**: Teknoloji logolarının orbit üzerinde döndüğü etkileyici animasyon
-- **🎬 Video Player Modals**: Proje demo videolarını modal içinde oynatma
-- **📱 Responsive Design**: Tüm cihazlarda mükemmel görünüm
-- **🎨 Modern UI/UX**: Gradient renkler, gölgeler ve modern tipografi
-- **⚡ Smooth Animations**: AOS (Animate On Scroll) kütüphanesi ile akıcı animasyonlar
-- **🔗 Project Modals**: Detaylı proje bilgileri için modal sistemi
-- **📊 Interactive Elements**: Hover efektleri, smooth scroll ve dinamik içerik
-- **🔍 SEO Optimized**: Semantic HTML yapısı
-- **⚙️ Performance Optimized**: Optimize edilmiş kod ve lazy loading
+- **🎯 Orbit Skills Animation**: Technology logos orbit around with smooth motion
+- **🎬 Video Player Modals**: Play project demo videos inside modals
+- **📱 Responsive Design**: Looks great on all devices
+- **🎨 Modern UI/UX**: Gradients, shadows, and modern typography
+- **⚡ Smooth Animations**: Powered by AOS (Animate On Scroll)
+- **🔗 Project Modals**: Detailed project information via modals
+- **📊 Interactive Elements**: Hovers, smooth scrolling, and dynamic content
+- **🔍 SEO Optimized**: Semantic HTML structure
+- **⚙️ Performance Optimized**: Clean code and lazy loading
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
 ### Frontend
 - **HTML5**: Semantic markup
@@ -23,59 +23,59 @@ Modern, responsive ve etkileşimli bir web developer portfolio'su. HTML5, CSS3, 
 - **Bootstrap 5**: Responsive framework
 
 ### Libraries & Tools
-- **Font Awesome**: İkonlar
+- **Font Awesome**: Icons
 - **Google Fonts**: Poppins, Inter, Lato, Rubik
-- **AOS**: Scroll animasyonları
-- **Typed.js**: Typing animasyonları
+- **AOS**: Scroll animations
+- **Typed.js**: Typing animations
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 portfolio/
-├── index.html              # Ana HTML dosyası
-├── style.css               # CSS stilleri ve animasyonlar
-├── script.js               # JavaScript fonksiyonları
-├── img/                    # Proje görselleri
+├── index.html              # Main HTML file
+├── style.css               # CSS styles and animations
+├── script.js               # JavaScript functions
+├── img/                    # Project images
 │   ├── main_photo.jpg
 │   ├── e-commerce-home.png
 │   ├── organic-foodd.png
 │   └── weather-app.png
-├── videos/                 # Proje demo videoları
+├── videos/                 # Project demo videos
 │   ├── e-commerce-demo-video.mp4
 │   ├── organic-food-demo-video.mp4
 │   └── weather-app-demo-video.mp4
-└── README.md               # Proje dokümantasyonu
+└── README.md               # Project documentation
 ```
 
-## 🎨 Tasarım Özellikleri
+## 🎨 Design Features
 
-### Renk Paleti
-- **Primary**: #007bff (Mavi)
-- **Secondary**: #6c757d (Gri)
+### Color Palette
+- **Primary**: #007bff (Blue)
+- **Secondary**: #6c757d (Gray)
 - **Gradient Primary**: Linear-gradient(135deg, #667eea 0%, #764ba2 100%)
-- **Dark**: #343a40 (Koyu gri)
-- **Success**: #28a745 (Yeşil)
-- **Warning**: #ffc107 (Sarı)
+- **Dark**: #343a40 (Dark gray)
+- **Success**: #28a745 (Green)
+- **Warning**: #ffc107 (Yellow)
 
-### Fontlar
-- **Primary**: Poppins (Başlıklar)
-- **Secondary**: Inter (Metin)
-- **Code**: Courier New (Kod blokları)
+### Fonts
+- **Primary**: Poppins (Headings)
+- **Secondary**: Inter (Body)
+- **Code**: Courier New (Code blocks)
 
-### Animasyonlar
-- **Orbit Animation**: Teknoloji logolarının dairesel hareketi
-- **Counter-rotation**: Logoların düz kalması için ters dönüş
-- **Fade in/out**: Sayfa geçiş efektleri
-- **Slide animations**: Yatay kaydırma animasyonları
-- **Hover transformations**: Etkileşimli hover efektleri
-- **Typing animation**: Yazı makinesi efekti
-- **Progress bar animations**: İlerleme çubuğu animasyonları
+### Animations
+- **Orbit Animation**: Circular motion of technology logos
+- **Counter-rotation**: Logos stay upright via reverse spin
+- **Fade in/out**: Section transitions
+- **Slide animations**: Horizontal slide effects
+- **Hover transformations**: Interactive hover effects
+- **Typing animation**: Typewriter effect
+- **Progress bar animations**: Progress indicators
 
-## 🌟 Özel Özellikler
+## 🌟 Special Features
 
 ### 1. Orbit Skills Animation
 ```css
-/* Frontend ve Backend için ayrı orbit animasyonları */
+/* Separate orbit animations for Frontend and Backend */
 #frontend-orbit-container, #backend-orbit-container {
     animation: spin-right 30s linear infinite;
 }
@@ -90,62 +90,62 @@ portfolio/
 ```
 
 ### 2. Video Player Modals
-- Bootstrap modal sistemi
-- Otomatik video pause/play
+- Bootstrap modal system
+- Auto video pause/play
 - Responsive video container
 - Multiple video support
 
 ### 3. Project Detail Modals
-- Detaylı proje açıklamaları
-- Teknoloji listeleri
-- GitHub ve demo linkleri
-- Video player entegrasyonu
+- Detailed project descriptions
+- Technology lists
+- GitHub and live demo links
+- Integrated video player
 
 ## 📱 Responsive Breakpoints
 
 - **Mobile**: < 576px
-- **Tablet**: 576px - 768px
+- **Tablet**: 576px – 768px
 - **Desktop**: > 768px
 
-## 🚀 Kurulum
+## 🚀 Setup
 
-1. Projeyi klonlayın:
+1. Clone the project:
 ```bash
 git clone https://github.com/BT-maker/portfolio.git
 cd portfolio
 ```
 
-2. Dosyaları web sunucunuzda çalıştırın veya doğrudan `index.html` dosyasını tarayıcıda açın.
+2. Serve the files on a web server or simply open `index.html` in your browser.
 
-3. Gerekli değişiklikleri yapın:
-   - Kişisel bilgilerinizi güncelleyin
-   - Projelerinizi ekleyin
-   - Sosyal medya linklerinizi güncelleyin
-   - Fotoğraflarınızı ekleyin
+3. Make necessary updates:
+   - Update your personal information
+   - Add your projects
+   - Update social media links
+   - Add your photos
 
-## 📝 Özelleştirme
+## 📝 Customization
 
-### Kişisel Bilgileri Güncelleme
+### Update Personal Information
 
-`index.html` dosyasında aşağıdaki alanları güncelleyin:
+Update these areas in `index.html`:
 
 ```html
 <!-- Hero Section -->
 <h1 class="hero-title">
-    Merhaba, Ben <span class="highlight">Bahattin Tok</span>
+    Hello, I'm <span class="highlight">Bahattin Tok</span>
 </h1>
 
 <!-- About Section -->
-<h3 class="about-title">Tutkulu Web Developer</h3>
+<h3 class="about-title">Passionate Web Developer</h3>
 
 <!-- Contact Section -->
 <p>your-email@example.com</p>
 <p>+90 555 123 4567</p>
 ```
 
-### Orbit Animasyonuna Yeni Teknolojiler Ekleme
+### Add New Technologies to Orbit
 
-`index.html` dosyasında orbit bölümüne yeni teknolojiler ekleyebilirsiniz:
+You can add new technologies to the orbit section in `index.html`:
 
 ```html
 <div class="inner-orbit-circles">
@@ -153,15 +153,15 @@ cd portfolio
 </div>
 ```
 
-### Projeleri Ekleme
+### Add Projects
 
-Projeler bölümünde yeni proje kartları ekleyebilirsiniz:
+Add new project cards to the Projects section:
 
 ```html
 <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
     <div class="project-card">
         <div class="project-image">
-            <img src="proje-resmi.jpg" alt="Proje Adı">
+            <img src="project-image.jpg" alt="Project Name">
             <div class="project-overlay">
                 <div class="project-links">
                     <a href="#" class="project-link" data-bs-toggle="modal" data-bs-target="#projectModal">
@@ -174,8 +174,8 @@ Projeler bölümünde yeni proje kartları ekleyebilirsiniz:
             </div>
         </div>
         <div class="project-content">
-            <h4 class="project-title">Proje Adı</h4>
-            <p class="project-description">Proje açıklaması</p>
+            <h4 class="project-title">Project Name</h4>
+            <p class="project-description">Project description</p>
             <div class="project-tech">
                 <span class="tech-tag">HTML</span>
                 <span class="tech-tag">CSS</span>
@@ -183,12 +183,12 @@ Projeler bölümünde yeni proje kartları ekleyebilirsiniz:
             </div>
         </div>
     </div>
-</div>
+}</div>
 ```
 
-### Renkleri Değiştirme
+### Change Colors
 
-`style.css` dosyasında CSS değişkenlerini güncelleyin:
+Update CSS variables in `style.css`:
 
 ```css
 :root {
@@ -198,7 +198,7 @@ Projeler bölümünde yeni proje kartları ekleyebilirsiniz:
 }
 ```
 
-## 🎯 Özellikler Detayı
+## 🎯 Feature Details
 
 ### 1. Navigation
 - Sticky navbar with blur effect
@@ -246,28 +246,28 @@ Projeler bölümünde yeni proje kartları ekleyebilirsiniz:
 - Lazy loading for images
 - **Central Divider**: Visual separation in skills section
 
-## 🔧 JavaScript Özellikleri
+## 🔧 JavaScript Features
 
 - **AOS Animations**: Scroll-based animations
 - **Orbit Animation Control**: Custom orbit and counter-rotation
 - **Video Player Management**: Modal video control
-- **Form Validation**: Email ve form validasyonu
-- **Smooth Scrolling**: Yumuşak sayfa geçişleri
-- **Counter Animation**: İstatistik sayaçları
-- **Notification System**: Kullanıcı bildirimleri
+- **Form Validation**: Email and form validation
+- **Smooth Scrolling**: Soft page transitions
+- **Counter Animation**: Statistics counters
+- **Notification System**: User notifications
 - **Parallax Effect**: Hero section parallax
-- **Lazy Loading**: Görsel lazy loading
+- **Lazy Loading**: Image lazy loading
 
-## 📊 Performans Optimizasyonları
+## 📊 Performance Optimizations
 
-- CSS ve JavaScript optimizasyonu
-- Image optimization ve lazy loading
+- CSS and JavaScript optimization
+- Image optimization and lazy loading
 - Debounced scroll events
 - Efficient DOM queries
 - Animation performance tuning
 - **3D Transform Optimization**: Hardware acceleration
 
-## 🌐 Browser Desteği
+## 🌐 Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
@@ -276,33 +276,33 @@ Projeler bölümünde yeni proje kartları ekleyebilirsiniz:
 - Internet Explorer 11+
 
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
-3. Commit yapın (`git commit -m 'Add some AmazingFeature'`)
-4. Push yapın (`git push origin feature/AmazingFeature`)
-5. Pull Request oluşturun
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Create a Pull Request
 
-## 📞 İletişim
+## 📞 Contact
 
 - **GitHub**: [@BT-maker](https://github.com/BT-maker)
 
-## 🙏 Teşekkürler
+## 🙏 Credits
 
 - [Bootstrap](https://getbootstrap.com/) - CSS Framework
-- [Font Awesome](https://fontawesome.com/) - İkonlar
-- [Google Fonts](https://fonts.google.com/) - Tipografi
-- [AOS](https://michalsnik.github.io/aos/) - Scroll Animasyonları
+- [Font Awesome](https://fontawesome.com/) - Icons
+- [Google Fonts](https://fonts.google.com/) - Typography
+- [AOS](https://michalsnik.github.io/aos/) - Scroll Animations
 
-## 🎉 Öne Çıkan Başarılar
+## 🎉 Highlights
 
-- **Orbit Animation**: Teknoloji logolarının mükemmel senkronizasyonu
+- **Orbit Animation**: Perfect synchronization of technology logos
 - **Video Integration**: Seamless video player experience
-- **Responsive Design**: Tüm cihazlarda mükemmel performans
-- **Performance**: Optimized animations ve smooth interactions
+- **Responsive Design**: Excellent performance on all devices
+- **Performance**: Optimized animations and smooth interactions
 
 ---
 
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+⭐ If you like this project, don't forget to star it!
 
