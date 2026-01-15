@@ -1,0 +1,16 @@
+# GitHub Pages Configuration
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Include PDF files
+include:
+  - cv
+
+# Content-Type for PDF files
+defaults:
+  - scope:
+      path: "cv"
+      type: "files"
+    values:
+      layout: null
